@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { RestServiceService } from '../../Service/rest-service.service';
+import {payment} from 'src/app/Model/payments';
+// import *  as  data from 'src/app/Data/data.json';
 
 @Component({
   selector: 'app-details',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
-  constructor() { }
+  payments: payment[] | any; 
+  constructor(private RestService:RestServiceService) {
+   }
 
   ngOnInit(): void {
-  }
-
+    this.RestService.PaymentDetails().subscribe((data) => {
+      this.payments = data;
+  })
 }
+}
+

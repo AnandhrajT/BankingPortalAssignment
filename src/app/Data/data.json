@@ -1,0 +1,26 @@
+[
+        {
+            "Id":1,
+            "Data":"Wonder Pizza Guys",
+            "Description":"Payment at the pizzeria 'Wonder Pizza Guys",
+            "Category":"Sign",
+            "Amount":-859,
+            "TransectionType":"Debit"
+        },
+        {
+            "Id":2,
+            "Data":"Another Company inc.",
+            "Description":"Wherehouse rental for May",
+            "Category":"Income",
+            "Amount": 900,
+            "TransectionType":"Cridit"
+        },
+        {
+            "Id":3,
+            "Data":"Global little things LLS",
+            "Description":"Withdrawal of personal funds",
+            "Category":"Outcome",
+            "Amount": -1187,
+            "TransectionType":"Debit"
+        }
+    ]
