@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BankingTemplateComponent implements OnInit {
 
+  title = 'Bank';
+  name: string = "Anandharaj Thangavel";
+
   constructor() { }
 
   ngOnInit(): void {

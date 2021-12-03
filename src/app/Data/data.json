@@ -4,7 +4,7 @@
             "Data":"Wonder Pizza Guys",
             "Description":"Payment at the pizzeria 'Wonder Pizza Guys",
             "Category":"Sign",
-            "Amount":-859,
+            "Amount":859,
             "TransectionType":"Debit"
         },
         {
@@ -20,7 +20,7 @@
             "Data":"Global little things LLS",
             "Description":"Withdrawal of personal funds",
             "Category":"Outcome",
-            "Amount": -1187,
+            "Amount": 1187,
             "TransectionType":"Debit"
         }
     ]

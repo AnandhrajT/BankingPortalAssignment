@@ -8,7 +8,7 @@ export class RestServiceService {
 
   constructor(private httpClient:HttpClient) { }
 
-  private url:string="https://run.mocky.io/v3/3c911446-b5d5-4eef-8dc0-5a2a65778fa3"
+  private url='https://run.mocky.io/v3/fb9c1694-ac36-4d43-bbf5-4c191f76ef39';
 
   PaymentDetails() {
     return this.httpClient.get(this.url);

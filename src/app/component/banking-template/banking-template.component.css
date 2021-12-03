@@ -1,24 +1,14 @@
-.container{
-    height: 300px;
-    background:lightgray;
-    display:flex;
-    justify-content:center;   
+.container {
+    /* background-image: url('src/assets/cut.jpg'); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,23,130,1) 0%, rgba(7,44,144,1) 0%, rgba(0,212,255,1) 100%);
+  }
+
+.navbar{
+    padding-bottom: 40px;
+    height:100px;
 }
-.bg-dark{
-    padding-left:none;
-    display:flex;
-    background-image: url("../../../assets/cut.jpg");
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,23,130,1) 0%, rgba(7,44,144,1) 0%, rgba(0,212,255,1) 100%); */
-    width:100% ! important;
-    height:100%;
-}
-strong{
-    font: weight 600px;
-}
-.nav{
-    text-align:right;
-}
+
 
 #buttons{
     align-items:center;
@@ -26,5 +16,4 @@ strong{
 label{
     font-size: large;
 }
-
 

@@ -10,14 +10,16 @@ import {payment} from 'src/app/Model/payments';
 })
 export class DetailsComponent implements OnInit {
 
-  payments: payment[] | any; 
+  payments: any[]=[]; 
+  today: Date | any = new Date().toLocaleString("en", { weekday: "long" });
   constructor(private RestService:RestServiceService) {
    }
 
   ngOnInit(): void {
-    this.RestService.PaymentDetails().subscribe((data) => {
-      this.payments = data;
-  })
-}
+    let paymentObj = this.RestService.PaymentDetails();
+    paymentObj.subscribe((response: any) => {
+      this.payments = response;
+    });
+  }
 }
 

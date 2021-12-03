@@ -1,118 +1,97 @@
+<!-- payment last week -->
 <div class="container">
-    <div class="row">
-        <div class="row">
-            <div class="col-sm-5 col-lg-5 text-left pt-2">
-                <div class="nav navbar-expand-lg fw-800">
-                    <li class="nav-item dropdown ">
-                        <h4>
-                            <a class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">Payments 
-                                <span style="color: blue;">Last week</span></a>
-                        </h4>
-                    </li>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6 pt-2 text-center">
-                <strong>Income</strong><br>
-                <label class="text-success">$10000.00</label>
-            </div>
-            <div class="col-lg-2 col-sm-6  pt-2 text-center">
-                <strong>Outcome</strong><br>
-                <label class="text-danger">$10000.00</label>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-right mt-3">
-                <div class="nav navbar-nav">
-                    <li class="nav-item dropdown ">
-                        <a href="#" class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">
-                            Show Analytics</a>
-                    </li>
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="row" id="menubar">
-            <div class="col-md-1 col-sm-1 pt-3" >
-                <span>All 125</span>
-            </div>
-            <div class="col-md-2 col-sm-1 pt-3">
-                <span style="color:green">●</span>Income 120
-            </div>
-            <div class="col-md-2 col-sm-1 pt-3">
-                <span style="color:red">●</span>Outcome 70
-            </div>
-            <div class="col-md-2 col-sm-1 pt-3">
-                <span style="color:green">●</span>For Signature 1
-            </div>
-            <div class="col-lg-5 md-7 sm-9 pt-2">
-                <div class="search" style="float:right">
-                    <i class="fa fa-search"></i>
-                    <input type="text" class="pl-2 form-control" placeholder="Search">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid " style="padding-top: 20px; padding-left: 25px;">
-            Today, Monday
-        </div>
-        <div class="container-fluid">
-        <div class="row pt-0">
-            <div class="col-lg-6 col-sm-6 pt-2">
-            <strong>Wonder Pizza Guys</strong><br>
-            <label class="text-muted">Payment at the pizzeria 'Wonder Pizza Guys</label>
-        </div>
-        <div class="col-lg-2 col-sm-2 pt-3 text-center">
-            <label class="text-danger">- $10000.00</label>
-        </div>
-        <div class="col-lg-2 col-sm-2 pt-2 text-center">
-            <button type="button" class="btn btn-md btn-success">Sign</button>
-        </div>
-        <div class="col-lg-2 col-sm-2 pt-2 text-center">
-            <div class="nav navbar-nav">
+    <div class="row" id="header">
+        <div class="col-lg-6 col-sm-6 text-left pt-2" id="week">
+            <div class="nav navbar-expand-lg fw-800">
                 <li class="nav-item dropdown ">
-                    <a href="#" class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">
-                        More</a>
+                    <h4>
+                        <a class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">Payments
+                            <span style="color: blue;">Last week</span></a>
+                    </h4>
                 </li>
             </div>
         </div>
+        <div class="col-lg-2 col-sm-6 d-sm-block">
+            <strong>Income</strong><br>
+            <label class="text-success font-weight-bold">$ 255 007</label>
         </div>
-        <div class="row pt-0">
-            <div class="col-lg-6 col-sm-6 pt-2">
-                <strong>Another Company inc.</strong><br>
-                <label class="text-muted">Wherehouse rental for May</label>
-            </div>
-            <div class="col-lg-2 col-sm-2 pt-3 text-center">
-                <label class="text-success"> + $10000.00</label>
-            </div>
-            <div class="col-lg-2 col-sm-2 pt-2 text-center">
-                <button type="button" class="btn btn-md btn-outline-success">Income</button>
-            </div>
-            <div class="col-lg-2 col-sm-2 pt-2 text-center">
-                <div class="nav navbar-nav">
-                    <li class="nav-item dropdown ">
-                        <a href="#" class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">
-                            More</a>
-                    </li>
-                </div>
+        <div class="col-lg-2 col-sm-6 ml-20 d-sm-block">
+            <strong>Outcome</strong><br>
+            <label class="text-danger font-weight-bold">$ 5 359</label>
+        </div>
+        <div class="col-lg-2 col-sm-6 d-sm-block" style="padding-top: 5px;">
+            <div class="nav navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a href="#" class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">
+                        Show Analytics</a>
+                </li>
             </div>
         </div>
-        <div class="row pt-0">
+    </div>
+</div>
+
+<!-- all income outcome -->
+<div class="container" id="all">
+    <div class="row">
+        <div class="col-md-1 col-sm-1 pt-2" style="float:left; font-size: 13px;">
+            <span>All 125</span>
+        </div>
+        <div class="col-md-1 col-sm-1 pt-2 pl-1" style="float:left;font-size: 13px;">
+            <span style="color:green">●</span>Income 120
+        </div>
+        <div class="col-md-1 col-sm-1 pt-2 pl-1" style="float:left;font-size: 13px;">
+            <span style="color:red">●</span>Outcome 70
+        </div>
+        <div class="col-md-2 col-sm-2 pt-2 pl-1" style="float:left;font-size: 13px;">
+            <span style="color:green">●</span>For Signature 1
+        </div>
+
+        <div class="col-md-4 col-sm-1"></div>
+        <div class="col-md-3 col-sm-2 pt-2" style="float:right">
+            <div class="search">
+                <i class="fa fa-search"></i>
+                <input type="text" class="pl-2 form-control" placeholder="Search">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Today -->
+<div class="container" id="today">
+    <span>Today,{{ today }}</span>
+</div>
+
+<!-- Details -->
+<div class="container-fluild">
+    <div class="container" *ngFor="let Payments of payments" id="details">
+        <div class="row">
             <div class="col-lg-6 col-sm-6 pt-2">
-                <strong>Global little things LLS</strong><br>
-                <label class="text-muted">Withdrawal of personal funds</label>
+                <span style="font-size :18px; font-weight: bold;">{{ Payments.Data }}</span>
+                <span class="d-none d-sm-block text-muted"> {{ Payments.Description }}</span>
             </div>
-            <div class="col-lg-2 col-sm-2 pt-3 text-center">
-                <label class="text-danger"> - $10000.00</label>
+            <div class="col-lg-2 col-sm-3 pt-3 text-center" *ngIf="Payments.Amount &lt; 0">
+                <span class="text-danger font-weight-bold">$ {{ Payments.Amount }}</span>
             </div>
-            <div class="col-lg-2 col-sm-2 pt-2 text-center">
+            <div class="col-lg-2 col-sm-3 pt-3 text-center" *ngIf="Payments.Amount &gt; 0">
+                <span class="text-success font-weight-bold" >$ {{ Payments.Amount }}</span>
+            </div>
+            <div class="col-lg-2 col-sm-3 pt-3 text-center" *ngIf="Payments.Category=='Sign'">
+                <button type="button" class="btn btn-md btn-success">{{ Payments.Category }}</button>
+            </div>
+            <div class="col-lg-2 col-sm-3 pt-3 text-center" *ngIf="Payments.Category=='Income'">
+                <button type="button" class="btn btn-md btn-outline-success">{{ Payments.Category }}</button>
+            </div>
+            <div class="col-lg-2 col-sm-3 pt-3 text-center" *ngIf="Payments.Category=='Outcome'">
                 <button type="button" class="btn btn-md btn-outline-danger">Outcome</button>
             </div>
-            <div class="col-lg-2 col-sm-2 pt-2 text-center">
+            <div class="col-lg-2 col-sm-3 pt-2">
                 <div class="nav navbar-nav">
                     <li class="nav-item dropdown ">
                         <a href="#" class="nav-link link-light dropdown-toggle" data-bs-toggle="dropdown">
                             More</a>
                     </li>
-                </div>
+                </div> 
             </div>
-    </div>
-    </div> 
+        </div>
 </div>
 </div>
