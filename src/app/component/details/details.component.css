@@ -1,10 +1,13 @@
-#header {
+#week {
   height: 100%;
   background: lightgray;
   display: flex;
   justify-content: left !important;
 }
 #week{
+  padding-top: 10px;
+}
+.analytics{
   padding-top: 10px;
 }
 
@@ -71,3 +74,78 @@
   .nav-link{
       color:black;
   }
+  .rounded-circle{
+    background-color: red;
+    width: 15px;
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    div#outcome {
+      margin-left: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 959px) {
+    .desktop {
+    display: block;
+    }
+    .mobile {
+    display: none;
+    }
+   } 
+   @media only screen and (max-width: 600px) {
+    .desktop {
+    display: none;
+    }
+    .mobile {
+    display: block;
+    border-top: 1px solid white;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,23,130,1) 0%, rgba(7,44,144,1) 0%, rgba(0,212,255,1) 100%);
+  }
+   }
+
+   @media only screen and (min-width: 959px) {
+    .desktop1 .desktop2{
+    display: block;
+    }
+    .mobile1 {
+    display: none;
+    }
+   } 
+   @media only screen and (max-width: 600px) {
+    .desktop1 {
+    display: none;
+    }
+    .mobile1 {
+    display: block;
+    height: 100%;
+    padding-left: 0;
+    margin-left: 2;
+
+  }
+   }
+
+   @media only screen and (min-width: 959px) {
+    .desktop2{
+    display: block;
+    }
+    .mobile2 {
+    display: none;
+    }
+   } 
+   @media only screen and (max-width: 600px) {
+    .desktop2 {
+    display: none;
+    }
+    .mobile2 {
+    display: block;
+    height: 100%;
+    padding-left: 0;
+    margin-left: 2;
+
+  }
+   }

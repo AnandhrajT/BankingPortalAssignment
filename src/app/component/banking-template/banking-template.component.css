@@ -8,7 +8,9 @@
     padding-bottom: 40px;
     height:100px;
 }
-
+.icon{
+  display:right;
+}
 
 #buttons{
     align-items:center;
@@ -17,3 +19,28 @@ label{
     font-size: large;
 }
 
+@media only screen and (max-width: 600px) {
+    div#taskAmount {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 959px) {
+    .desktop1 {
+    display: block;
+    }
+    .mobile1 {
+    display: none;
+    }
+   } 
+   @media only screen and (max-width: 600px) {
+    .desktop1 {
+    display: none;
+    }
+    .mobile1 {
+    display: block;
+    height: 100%;
+    width:100%;
+
+  }
+   }
